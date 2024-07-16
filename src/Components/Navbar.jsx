@@ -78,12 +78,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-ui-2 p-4 flex justify-between items-center bg-red-500">
+    <nav className="bg-ui-2 px-4 py-2 flex justify-between items-center bg-red-500 font-font1 text-3xl">
       <div className="flex items-center space-x-4">
       <SiNike className="h-8 w-8 text-black" />
       </div>
       <div className="hidden md:flex md:flex-grow md:justify-center">
-        <div className="flex space-x-4 font-extrabold">
+        <div className="flex space-x-4 ">
         <a href="#" className="text-black hover:text-gray-600">NEW & FEATURED</a>
          <a href="#" className="text-black hover:text-gray-600">MEN</a>
            <a href="#" className="text-black hover:text-gray-600">WOMEN</a>

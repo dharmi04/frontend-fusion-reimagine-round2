@@ -9,6 +9,9 @@ export default {
       colors:{
         bgcolor: '#1d2b2b',
       },
+      fontFamily:{
+        font1: ["Bebas Neue", 'sans-serif'],
+      },
     },
   },
   plugins: [],
